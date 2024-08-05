@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Vanilla Candle",
+    "price": 25.0,
+    "description": "A vanilla-scented candle for a relaxing moment.",
+    "image": "your-product-image-url.jpg",
+    "categoryId": 1,
+    "collectionId": 1
+  },
+  {
+    "id": 2,
+    "name": "Holiday Spice Candle",
+    "price": 30.0,
+    "description": "A spicy-scented candle perfect for the holiday season.",
+    "image": "your-product-image-url.jpg",
+    "categoryId": 1,
+    "collectionId": 2
+  }
+]
+
