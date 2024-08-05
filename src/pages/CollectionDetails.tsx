@@ -20,7 +20,7 @@ const CollectionDetails: React.FC = () => {
       const response = await fetch("/products.json");
       const data = await response.json();
       const filteredProducts = data.filter(
-        (product: Product) => product.collectionId === parseInt(id)
+        (product: Product) => product.collectionId === parseInt(id!)
       );
       setProducts(filteredProducts);
     };

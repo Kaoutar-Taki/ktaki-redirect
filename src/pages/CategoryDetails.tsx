@@ -19,7 +19,7 @@ const CategoryDetails: React.FC = () => {
       const response = await fetch("/products.json");
       const data = await response.json();
       const filteredProducts = data.filter(
-        (product: Product) => product.categoryId === parseInt(id)
+        (product: Product) => product.categoryId === parseInt(id!)
       );
       setProducts(filteredProducts);
     };
